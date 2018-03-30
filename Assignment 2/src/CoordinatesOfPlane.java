@@ -17,7 +17,7 @@ public class CoordinatesOfPlane {
 		System.out.print("> ");
 		x = reader.nextInt();
 		
-		System.out.println("What is the maximum x?");
+		System.out.println("What is the maximum y?");
 		System.out.print("> ");
 		y = reader.nextInt();
 		

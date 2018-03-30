@@ -33,7 +33,7 @@ public class EvenNumbers {
 		
 		while(true) {
 			
-			if(count == 16) continue;
+			if(count == 16) { count++; continue;}
 			System.out.println(count);
 			if(count == 20) break;
 			
