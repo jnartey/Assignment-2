@@ -6,8 +6,8 @@ public class NestedLoops {
 
 	public static void main(String[] args) {
 		//1.
-		for(int i = 0; i < 5; i++) {//Print columns of 5
-			for(int j = 0; j < 8; j++) {//Print rows of 8
+		for(int i = 0; i < 5; i++) {//Print rows of 5
+			for(int j = 0; j < 8; j++) {//Print columns of 8
 				//Print number 8
 				System.out.print(8);
 			}
@@ -22,8 +22,8 @@ public class NestedLoops {
 		//2.
 		int count = 4;
 		
-		for(int i = 0; i < 4; i++) {//Print columns of 4
-			for(int j = 0; j < count; j++) {//Print rows in descending order
+		for(int i = 0; i < 4; i++) {//Print rows of 4
+			for(int j = 0; j < count; j++) {//Print columns in descending order
 				//Print number 8
 				System.out.print(8);
 			}

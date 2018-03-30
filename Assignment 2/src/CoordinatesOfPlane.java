@@ -25,8 +25,8 @@ public class CoordinatesOfPlane {
 		//Read input y
 		y = reader.nextInt();
 		
-		for(int i = 0; i <= x; i++) {//Columns
-			for(int j = 0; j <= y; j++) {//Rows
+		for(int i = 0; i <= x; i++) {//Rows
+			for(int j = 0; j <= y; j++) {//Columns
 				
 				//Print coordinates x and y
 				System.out.println("(" + i + "," + j + ")");
